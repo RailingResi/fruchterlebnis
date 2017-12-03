@@ -47,7 +47,11 @@ gem 'redis', '~> 3.0'
 gem 'redis-rails'
 gem 'redis-namespace'
 
+# Authentication with devise
 gem 'devise'
+# Autorisation with CanCanCan. aka user roles
+# https://github.com/CanCanCommunity/cancancan
+gem 'cancancan', '~> 2.0'
 
 gem 'friendly_id', '~> 5.1.0'
 
@@ -56,6 +60,12 @@ gem 'rack-attack'
 gem 'resque', require: 'resque/server'
 
 gem 'browser'
+
+# Image uploader
+gem 'mini_magick'
+gem 'carrierwave'
+gem 'fog'
+gem 'unf' # Dependency for fog
 
 group :development, :test do
   gem 'rubocop', '~>0.42.0', require: false
@@ -83,6 +93,7 @@ group :development do
   gem 'guard-minitest'
   gem 'ruby-prof'
   gem 'foreman'
+  gem 'rails-erd', require: false
 end
 
 

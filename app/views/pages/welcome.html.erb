@@ -1,1 +1,7 @@
-<h1> Hello Fruchterlebnis </h1>
+<% if user_signed_in? %>
+    <h1>Welcome back <%= current_user.email %> </h1>
+    <p><%= link_to 'sign_out', destroy_user_session_path, method: :delete %></p>
+<% else %>
+    <h1>Hello from Fruchterlebnis</h1>
+    <p>Please <%= link_to 'login', new_user_session_path %> </p>
+<% end %>

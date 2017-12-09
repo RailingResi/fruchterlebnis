@@ -1,0 +1,11 @@
+development:
+  NOTIFY_EMAIL: 'example@mail.com'
+  NOTIFY_EMAIL_PWD: 'your_email_password'
+
+test:
+  NOTIFY_EMAIL: 'example@mail.com'
+  NOTIFY_EMAIL_PWD: 'your_email_password'
+
+production:
+  NOTIFY_EMAIL: <%= ENV["NOTIFY_EMAIL"] %>
+  NOTIFY_EMAIL_PWD: <%= ENV["NOTIFY_EMAIL_PWD"] %>

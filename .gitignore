@@ -19,3 +19,5 @@
 .byebug_history
 *.DS_store
 /dump.rdb
+
+/config/application.yml

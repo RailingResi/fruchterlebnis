@@ -20,6 +20,20 @@ Rails.application.configure do
       'Cache-Control' => "public, max-age=#{2.days.seconds.to_i}"
   }
 
+  config.action_mailer.default_url_options = { :host => 'fruchterlebnis.herokuapp.com' }
+  config.action_mailer.asset_host = 'https://fruchterlebnis.herokuapp.com'
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.gmail.com',
+    port:                 587,
+    domain:               'gmail.com',
+    user_name:            ENV['NOTIFY_EMAIL'],
+    password:             ENV['NOTIFY_EMAIL_PWD'],
+    authentication:       'plain',
+    enable_starttls_auto: true  
+  }
+
+
   # Attempt to read encrypted secrets from `config/secrets.yml.enc`.
   # Requires an encryption key in `ENV["RAILS_MASTER_KEY"]` or
   # `config/secrets.yml.key`.

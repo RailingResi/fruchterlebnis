@@ -68,7 +68,7 @@ gem 'fog'
 gem 'unf' # Dependency for fog
 
 group :development, :test do
-  gem 'rubocop', '~>0.42.0', require: false
+  gem 'rubocop', '~>0.49.0', require: false
   gem 'rubocop-checkstyle_formatter', require: false
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'

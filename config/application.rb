@@ -22,5 +22,6 @@ module Fruchterlebnis
 
     # Eager load the lib folder. Rails 5 no longer eager 
     config.eager_load_paths << Rails.root.join('lib')
+    config.assets.paths << Rails.root.join("assets", "public")
   end
 end

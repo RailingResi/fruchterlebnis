@@ -2,6 +2,6 @@
     <h1>Welcome back <%= current_user.email %> </h1>
     <p><%= link_to 'sign_out', destroy_user_session_path, method: :delete %></p>
 <% else %>
-    <h1>Hello from Fruchterlebnis</h1>
-    <p>Please <%= link_to 'login', new_user_session_path %> </p>
+    <h1>Hello from Fruchterlebnis <span class="icon icon-heart"></span></h1>
+    <p>Please <%= link_to 'login', new_user_session_path %> <span class="icon icon-next"></span></p>
 <% end %>

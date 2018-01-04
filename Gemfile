@@ -37,6 +37,7 @@ gem 'bootstrap-sass', '~> 3.3.7'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 gem 'bootstrap-datepicker-rails', '~> 1.6.4'
 gem 'will_paginate'
@@ -102,11 +103,11 @@ group :test do
   gem 'minitest-reporters'
   gem 'minitest-rails-capybara'
   gem 'resque_unit'
-  gem 'database_cleaner'
+  #gem 'database_cleaner'
 end
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-ruby '2.4.2'
+ruby '2.3.3'

@@ -2,13 +2,20 @@
   "name": "fruchterlebnis",
   "private": true,
   "dependencies": {
-    "blendid": "^4.3.1",
+    "@rails/webpacker": "^3.2.0",
+    "coffeescript": "1.12.7",
     "gulp-iconfont": "^9.0.2",
     "gulp-iconfont-css": "^2.1.0",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "popper": "^1.0.1"
   },
   "scripts": {
     "start": "yarn run blendid",
     "build": "yarn run blendid -- build"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.3",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "webpack-dev-server": "^2.10.0"
   }
 }

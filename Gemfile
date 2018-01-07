@@ -39,6 +39,8 @@ gem 'bootstrap-sass', '~> 3.3.7'
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
+gem 'webpacker', '~> 3.0'
+
 gem 'bootstrap-datepicker-rails', '~> 1.6.4'
 gem 'will_paginate'
 gem 'will_paginate-bootstrap'

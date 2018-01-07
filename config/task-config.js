@@ -27,6 +27,16 @@ module.exports = {
           var iconfontCss = require('gulp-iconfont-css');
           var watch  = require('gulp-watch')
 
+          var paths = {
+              scripts: [
+                  path.resolve(process.env.PWD, PATH_CONFIG.src, PATH_CONFIG.javascripts.src, '**/*.js'),
+                  '!' + path.resolve(process.env.PWD, PATH_CONFIG.src, PATH_CONFIG.javascripts.src, '**/*.js')
+              ],
+              libs: ['scripts/libs/jquery/dist/jquery.js', 'scripts/libs/underscore/underscore.js', 'scripts/backbone/backbone.js'],
+              styles: ['styles/**/*.css'],
+              images: ['images/**/*.png'],
+          };
+
           gulp.task('iconfont', function(){
               var src = path.resolve(process.env.PWD, PATH_CONFIG.src, PATH_CONFIG.icons.src, '*.svg');
               var dest = path.resolve(process.env.PWD, PATH_CONFIG.src, PATH_CONFIG.fonts.src, 'icons');

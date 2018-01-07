@@ -27,5 +27,7 @@
 .idea/
 
 /public/assets/public/packs
+/public/debug
+/public/build
 /public/packs-test
 /node_modules

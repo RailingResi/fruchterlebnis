@@ -1,6 +1,21 @@
 {
-  "application.css": "/debug/application-0c92453f5c695868fbc9bd003600dc06.css",
-  "application.css.map": "/debug/application-0c92453f5c695868fbc9bd003600dc06.css.map",
-  "application.js": "/debug/application-24f893ac5d6b092cf30d.js",
-  "application.js.map": "/debug/application-24f893ac5d6b092cf30d.js.map"
+  "application.css": "/debug/application-1d162cd6c02031fb39ef0271da39d65b.css",
+  "application.css.map": "/debug/application-1d162cd6c02031fb39ef0271da39d65b.css.map",
+  "application.js": "/debug/application-ac576de459a82358f0bb.js",
+  "application.js.map": "/debug/application-ac576de459a82358f0bb.js.map",
+  "fonts\\lg.eot": "/debug/fonts/lg-ecff11700aad0000cf3503f537d1df17.eot",
+  "fonts\\lg.svg?n1z373": "/debug/fonts/lg-0cb1b8af9950584b5cc8e8250e045508.svg",
+  "fonts\\lg.ttf?n1z373": "/debug/fonts/lg-4fe6f9caff8b287170d51d3d71d5e5c6.ttf",
+  "fonts\\lg.woff?n1z373": "/debug/fonts/lg-5fd4c338c1a1b1eeeb2c7b0a0967773d.woff",
+  "img\\loading.gif": "/debug/img/loading-bbdac9cda255c54bfd809110aff87898.gif",
+  "img\\video-play.png": "/debug/img/video-play-dc34cc9c99e935cd9c88c036e34103f5.png",
+  "img\\vimeo-play.png": "/debug/img/vimeo-play-dfe7764b4fe444c3880736ac6131f5b4.png",
+  "img\\youtube-play.png": "/debug/img/youtube-play-e6f0c233c87ddefab049c991c61e2d69.png",
+  "libs.js": "/debug/libs-9da82b5d27bc1e555651.js",
+  "libs.js.map": "/debug/libs-9da82b5d27bc1e555651.js.map",
+  "fonts\\icons\\iconfont.eot": "/debug/fonts/icons/iconfont-77a1e31f5386a64af87a8bc0dc410ada.eot",
+  "fonts\\icons\\iconfont.ttf": "/debug/fonts/icons/iconfont-c0a2e16f747211022348ade180a3570c.ttf",
+  "fonts\\icons\\iconfont.woff": "/debug/fonts/icons/iconfont-f5bbb0c5e96235489cf8bb3ee2196f62.woff",
+  "fonts\\icons\\iconfont.woff2": "/debug/fonts/icons/iconfont-2da6c933894d1ff75a7989d15edda42d.woff2",
+  "fonts\\icons\\iconfont.svg": "/debug/fonts/icons/iconfont-9c6c037f6e0dc749c79ffa52fa10d623.svg"
 }

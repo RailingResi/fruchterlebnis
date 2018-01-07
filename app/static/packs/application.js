@@ -7,6 +7,14 @@
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
 
-import '../css/libs.css';
-import '../css/application.css';
+// load gulp tasks
+import '../js/tasks';
+
+//load js-modules
+import '../js/modules';
+
+// load css
+import '../css/libs.scss';
+import '../css/icons.scss';
+import '../css/application.scss';
 console.log('Hello World from Webpacker')
